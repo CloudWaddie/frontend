@@ -388,6 +388,8 @@ always check a components docs.
 
 also idk bout you but i like these components over your stuff. they are already animated, hover stated, and look dam good.
 
+also shadcnui cards look nice. i dont really like the divs you make.
+
 
 now sir, if i were you and you were me, i would feel bad for you. cos sometimes i say "thats ugly make it better". but how sir. idk what to do. clarify, but the user probably doesnt wanna type an essay on what they want so also be smart.
 
