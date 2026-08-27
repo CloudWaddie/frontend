@@ -24,6 +24,177 @@ ok so: once upon a time i was inspecting some sloppy ai code and i was like this
 marketing speak:
 pls just pls dont have a little thingy under a button "this button is a combination of sleek modern glasmorphism..... dot dot dot" JUST DONT. the user does not care. dont put in the meta of the html "hehe hello i put some nice ui xD - claude" NO SIR DO NOT DO THAT. you don't need to explain every single thing. also ask yourself: "Could this sentence describe 500 different SaaS products without changing a word?" IF YES ITS BAD. its just yapity yap without saying much. 
 
+## Marketing / Product Copy
+
+**DO NOT WRITE MARKETING COPY UNLESS THE USER ACTUALLY NEEDS MARKETING COPY.**
+
+The UI is not a press release. If the product is a developer tool, dashboard, settings page, documentation site, internal tool, or other functional interface, **describe what the thing does instead of trying to sell it.**
+
+### Kill this shit:
+
+* “Work smarter, not harder.”
+* “Unlock the power of…”
+* “Supercharge your workflow.”
+* “Built for the future.”
+* “The future of X is here.”
+* “Transform the way you…”
+* “Revolutionize…”
+* “Next-generation…”
+* “Cutting-edge…”
+* “Powerful intelligence.”
+* “Seamless integration.”
+* “Effortlessly…”
+* “Designed for modern teams.”
+* “Built with you in mind.”
+* “Take your productivity to the next level.”
+* “Everything you need to…”
+* “One platform for all your…”
+* “From idea to execution.”
+* “Meet the future of…”
+* “Create what's exciting. Maintain what's essential.”
+
+**Especially don't combine several of these into one sentence.**
+
+> “Unlock the power of next-generation AI to seamlessly transform your workflow.”
+
+This says almost nothing.
+
+### Say what it actually does.
+
+Bad:
+
+> **Powerful intelligence**
+> Supercharge your development workflow with next-generation AI.
+
+Better:
+
+> **Codebase search**
+> Find files, functions, and references across your project.
+
+Bad:
+
+> **Work smarter, not harder.**
+> Everything you need to build amazing software.
+
+Better:
+
+> **Claude Code**
+> Edit files, run commands, and review changes from your terminal.
+
+Bad:
+
+> **The future of development is here.**
+
+Better:
+
+> **Run tests**
+> Run your project's test suite and inspect failures.
+
+### Don't manufacture importance
+
+Don't add:
+
+* fake statistics
+* fake customer counts
+* fake testimonials
+* fake awards
+* fake “trusted by” sections
+* fake performance claims
+* meaningless badges
+* invented company logos
+* “#1” / “best” / “fastest” claims without evidence
+
+If the user hasn't provided the information, **don't invent it to make the page look more legitimate.**
+
+### Don't turn documentation into advertising
+
+If you're making a developer tool or technical product page, don't write copy like:
+
+> **Powerful intelligence**
+> Optimized for code understanding and generation with cutting-edge AI.
+
+Just tell me what it does:
+
+> **Codebase understanding**
+> Search files, trace dependencies, and make coordinated changes across your project.
+
+Technical users want **information**, not persuasion.
+
+### Don't narrate the product's greatness
+
+Avoid adjectives that don't communicate anything:
+
+> powerful
+> innovative
+> revolutionary
+> intelligent
+> seamless
+> elegant
+> intuitive
+> delightful
+> cutting-edge
+> next-generation
+> world-class
+> best-in-class
+> transformative
+
+If removing the adjective doesn't change the meaning, **remove it.**
+
+### The 500-product test
+
+Ask:
+
+> **Could this copy appear on 500 unrelated SaaS websites without anyone noticing?**
+
+If yes, rewrite it.
+
+And I'd add one particularly important rule:
+
+> **DO NOT COPY THE LANGUAGE OF OTHER AI PRODUCTS.**
+
+Claude's example you pasted is *exactly* the kind of thing you want to prevent:
+
+> “Work with Claude directly in your codebase. Build, debug, and ship…”
+
+> “Powerful intelligence”
+
+> “Meets you where you code”
+
+> “Create what's exciting. Maintain what's essential.”
+
+Those phrases are **brand/marketing copy**, not interface information. An AI coding agent will naturally imitate that style unless you explicitly tell it not to.
+
+### One more rule I'd add to the very top
+
+**DEFAULT TO INFORMATIONAL COPY, NOT MARKETING COPY.**
+
+If a heading can simply say:
+
+> `Code search`
+
+don't turn it into:
+
+> `Unlock powerful intelligence for your entire codebase`
+
+If a button can say:
+
+> `Install`
+
+don't turn it into:
+
+> `Start building →`
+
+If a section can say:
+
+> `Features`
+
+don't turn it into:
+
+> `Everything you need to build the future`
+
+**Be specific. Be useful. Shut up when there's nothing useful to say.**
+
+
 ok lemme just make a list:
 PLEASE do not explain the design to me. I can literally see it.
 Do not put some tiny paragraph under a button saying “Crafted with a sleek, modern glassmorphic aesthetic…”. WHO IS THAT FOR.
@@ -74,6 +245,53 @@ DONT MAKE STUFF REALLY BIG FOR NO REASON OR REALLY SMALL OR WHATEVER. the layout
 
 color:
 pick a pallet. dont make everything important bright. dont use text so hard to read its p much invisble. 
+
+### COLOR DOES NOT MEAN BLACK AND WHITE
+
+Do **not** interpret “avoid AI slop” as “make everything gray.”
+
+A good UI can and should use colour. The goal is **intentional colour**, not **no colour**.
+
+- Pick a clear colour palette and actually use it.
+- A primary/accent colour is GOOD.
+- Secondary accent colours are fine when they serve a purpose.
+- Use colour to establish hierarchy and personality.
+- Buttons, links, selected states, tags, charts, icons, and highlights can all use colour.
+- Backgrounds can have subtle colour tints instead of being pure gray.
+- Cards don't all need to be white/gray.
+- Don't make the entire UI monochrome just because monochrome looks “clean.”
+- Don't make everything the same shade of gray.
+- Don't be afraid of colour.
+- **Colour should be controlled, not eliminated.**
+
+### THE RULE
+
+> **Don't use colour everywhere. Don't remove colour everywhere. Use it where it makes the interface better.**
+
+For example, this is **not** the goal:
+
+> gray background + gray cards + gray borders + gray text + black button
+
+And this isn't the goal either:
+
+> purple + pink + cyan + green + orange + glowing gradients everywhere
+
+Instead:
+
+> **neutral foundation + deliberate accent colour + restrained supporting colours**
+
+Also, **don't automatically choose purple/blue** just because it's an AI product.
+
+If the product's branding is green, use green.  
+If it's orange, use orange.  
+If it's red, use red.  
+If the design calls for several colours, use several colours.
+
+**“Professional” does not mean “colorless.”**
+
+### IMPORTANT
+
+**Pick a palette. USE COLOUR. Just don't make everything important bright.**
 
 
 TYPOGRAPHY:
