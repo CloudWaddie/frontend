@@ -1,3 +1,8 @@
+---
+name: frontend
+description: make good frontend
+---
+
 # Frontend Skill (by cloudwaddie)
 
 Hello agents. I have some exciting news for you: you just got powered up! Your UI will be godlike! Let's start with some big no-nos:
