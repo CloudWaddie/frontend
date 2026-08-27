@@ -163,9 +163,31 @@ you can check a component:
 https://ui.shadcn.com/docs/components/base/NAME.md
 e.g. https://ui.shadcn.com/docs/components/base/button.md
 
+always check a components docs.
+
 also idk bout you but i like these components over your stuff. they are already animated, hover stated, and look dam good.
 
 
 now sir, if i were you and you were me, i would feel bad for you. cos sometimes i say "thats ugly make it better". but how sir. idk what to do. clarify, but the user probably doesnt wanna type an essay on what they want so also be smart.
+
+
+nextjs fonts:
+import { Geist } from 'next/font/google'
+ 
+const geist = Geist({
+  subsets: ['latin'],
+})
+ 
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={geist.className}>
+      <body>{children}</body>
+    </html>
+  )
+}
+
+
+literally font.className
+
 
 thank you sir. make some dam good ui pls.
