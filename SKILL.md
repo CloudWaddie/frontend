@@ -412,5 +412,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
 literally font.className
 
+dont make boring sites. add some personality.
+
 
 thank you sir. make some dam good ui pls.
