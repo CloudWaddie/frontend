@@ -370,6 +370,9 @@ Does this button need to be here?
 now lemme teach you shadcnui:
 shadcn ui is really tuff bc you need like no css for a nice website ok i lied you need a lil bit but thats fine
 
+
+ALSO: ik i said no css but you do gotta do some css otherwise ima have buttons on the left side of the screen looking out of place :(
+
 imagine i wanted a button:
 npx shadcn@latest add button - boom
 import { Button } from "@/components/ui/button" - boom
